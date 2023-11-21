@@ -1,0 +1,24 @@
+.Navbar{
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 20px;
+  background-color: #E5F7F9;
+  position: relative;
+}
+
+.Navbar__item{
+  color: #03588C;
+  font-weight: bold;
+}
+
+.Navbar__img{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  left: 20px;
+}
+
+

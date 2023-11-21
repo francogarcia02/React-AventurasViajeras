@@ -1,0 +1,15 @@
+.Services{
+
+}
+
+.Services__title{
+  text-align: center;
+}
+
+.Services__cont{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+}
