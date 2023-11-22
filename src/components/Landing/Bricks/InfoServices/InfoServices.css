@@ -1,0 +1,39 @@
+.Services{
+  margin-bottom: 100px;
+}
+
+.Services__title{
+  text-align: center;
+}
+
+.Services__cont{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+}
+
+.cont__item {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  align-items: center;
+  justify-items: center;
+  transition: all 0.3s ease;
+}
+
+.cont__item:hover {
+  transform: scale(0.95);
+}
+
+.cont__item__img{
+    width: 300px;
+    height: 321px;
+}
+
+.cont__item__title{
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  color: #03588C;
+}

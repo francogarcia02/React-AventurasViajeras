@@ -1,11 +1,12 @@
 import './Landing.css';
-import Services from './Bricks/Services/Services'
+import InfoServices from './Bricks/InfoServices/InfoServices'
 
 
 const Landing = () =>{
     return(
         <div>
-            <Services/>
+            <img className="Img__background" src='../../../assets/img/paisaje.jpg' alt='paisaje'/>
+            <InfoServices/>
         </div>
     )
 }

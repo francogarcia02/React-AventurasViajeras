@@ -14,11 +14,14 @@
   font-weight: bold;
 }
 
-.Navbar__img{
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+.Navbar__contImg{
   position: absolute;
   left: 20px;
 }
+
+.Navbar__img{
+  width: 70px;
+}
+
 
 
