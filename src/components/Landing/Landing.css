@@ -1,4 +1,3 @@
-.Img__background{
-  width: 100%;
-  height: 450px;
+.Landing__grid{
+  display: grid;
 }
