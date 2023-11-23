@@ -1,0 +1,16 @@
+.Contacto{
+  padding: 20px;
+}
+
+.Contacto__title{
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.Contacto__item{
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

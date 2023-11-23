@@ -3,6 +3,7 @@ a{
 }
 
 html{
-  background-image: url('../public/assets/img/fondo/fondo.jpg');
+  background-image: url('../public/assets/img/fondo/fondo2.jpg');
   background-attachment: fixed;
+  background-size: cover;
 }

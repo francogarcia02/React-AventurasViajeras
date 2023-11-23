@@ -1,0 +1,23 @@
+.Redes{}
+
+.Redes__title{
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.Redes__subcont{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.Redes__img{
+  width: 30px;
+  transition: all 0.3s ease;
+}
+
+.Redes__img:hover{
+  transform: scale(0.9);
+}

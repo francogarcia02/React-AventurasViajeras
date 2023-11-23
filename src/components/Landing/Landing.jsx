@@ -1,7 +1,8 @@
 import './Landing.css';
-import InfoServices from './Bricks/InfoServices/InfoServices'
-import AboutUs from './Bricks/AboutUs/AboutUs'
-import Imagen from './Bricks/Imagen/Imagen'
+import InfoServices from './Bricks/InfoServices/InfoServices';
+import AboutUs from './Bricks/AboutUs/AboutUs';
+import Imagen from './Bricks/Imagen/Imagen';
+
 
 
 const Landing = () =>{

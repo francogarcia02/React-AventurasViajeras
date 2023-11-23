@@ -1,0 +1,44 @@
+.Conteiner{
+  background-color: white;
+  color: #03588C;
+}
+
+.Footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-bottom: solid 1px #03588C;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: start;
+}
+
+.SubCont{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-items: space-between;
+  padding: 20px;
+}
+
+.SubCont__p1{
+  margin: 0;
+  justify-self: start;
+  margin-left: 60px;
+}
+
+.SubCont__p2{
+  margin: 0;
+  justify-self: end;
+  margin-right: 60px;
+}
+
+.Developer__link{
+  transition: all 0.3s ease;
+  color: #0367A6;
+}
+
+.Developer__link:hover{
+  color: #63A5BF;
+}

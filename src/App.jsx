@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing';
+import Footer from './components/Footer/Footer';
 import Alojamientos from './components/Services/Alojamientos/Alojamientos';
 import Excurciones from './components/Services/Excurciones/Excurciones';
 import Transportes from './components/Services/Transportes/Transportes';
@@ -17,6 +18,7 @@ const App = ()=>{
                 <Route path='/Excurciones' element={<Excurciones/>}/>
                 <Route path='/Transportes' element={<Transportes/>}/>
             </Routes>
+            <Footer/>
         </BrowserRouter>
 
     )

@@ -3,7 +3,7 @@
   color: #03588C;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
+  justify-content: end;
   align-items: center;
 }
 
@@ -14,15 +14,12 @@
 }
 
 .AboutUs__info__title{
-
   margin: 0;
   padding: 10px;
   font-size: 40px;
-
 }
 
 .AboutUs__info__text{
-
   margin: 0;
   padding: 10px;
   font-weight: bold;
@@ -31,4 +28,5 @@
 .AboutUs__img{
   width: 270px;
   padding: 30px;
+  padding-left: 100px;
 }
