@@ -1,0 +1,42 @@
+.Slide__conteiner{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #E5F7F9;
+  color: #03588C;
+}
+
+.Slide__conteiner-content{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.content-text{
+  font-weight: 600;
+}
+
+.content-name{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Button-conteiner{
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.Button-conteiner__button{
+  border: none;
+  background-color: transparent;
+  color: #03588C;
+  transition: all 0.3s ease;
+}
+
+.Button-conteiner__button:hover{
+  transform: scale(1.1);
+}
