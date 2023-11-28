@@ -1,0 +1,57 @@
+.Alojamientos{
+  background-color: #E3E3E3;
+}
+
+/* Contenedor */
+.Alojamientos-conteiner{
+  margin: 0 auto;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 50px;
+}
+
+/* Header */
+.Alojamientos-header{
+  display: grid;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1400px;
+  gap: 10px;
+  padding: 50px;
+}
+
+.header-item{
+  margin: 0;
+  padding: 5px;
+  color: #0367A6;
+}
+
+.header-title{
+  justify-self: center;
+  font-size: 50px;
+  padding: 30px;
+}
+
+/* Presentacion */
+.header-present-conteiner{
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Contacto */
+.header-contact-conteiner{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-conteiner-img{
+  width: 50px;
+}
+
+.contact-conteiner-title{
+  color: #63A5BF;
+}

@@ -42,3 +42,15 @@
 .Developer__link:hover{
   color: #63A5BF;
 }
+
+.Whatsapp{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.Whatsapp-img{
+  width: 60px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+}
