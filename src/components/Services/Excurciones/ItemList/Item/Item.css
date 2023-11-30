@@ -1,0 +1,38 @@
+.Excur-Item{
+  padding: 50px;
+  display: grid;
+  color: #0367A6;
+}
+
+.Item__img__conteiner{
+  outline: 20px solid #F7F7F7;
+  outline-offset: -20px;
+}
+
+.Item__img{
+  width: 540px;
+  height: 350px;
+  transition: transform 0.3s;
+}
+
+.Item__img:hover{
+  transform: scale(0.95);
+}
+
+.Item__title{
+  margin: 0;
+  padding: 10px;
+}
+
+.Item__desc{
+  margin: 0;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.Item__type{
+  margin: 0;
+  padding: 10px;
+  color: #63A5BF;
+  font-weight: normal;
+}

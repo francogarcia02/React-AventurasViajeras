@@ -1,0 +1,56 @@
+/* Header */
+.Alojamientos-header{
+  display: grid;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1400px;
+  gap: 10px;
+  padding: 50px;
+}
+
+.header-item{
+  margin: 0;
+  padding: 5px;
+
+}
+
+.header-title{
+  justify-self: center;
+  font-size: 50px;
+  padding: 60px;
+  color: #0367A6;
+}
+
+/* Presentacion */
+.header-present-conteiner{
+
+  padding: 20px;
+  color: #C38E6E;
+}
+
+.present-conteiner-title{
+  font-size: 30px;
+  max-width: 800px;
+}
+
+.present-conteiner-text{
+  font-size: 20px;
+  max-width: 500px;
+}
+
+/* Contacto */
+.header-contact-conteiner{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-conteiner-img{
+  width: 50px;
+}
+
+.contact-conteiner-title{
+  color: #63A5BF;
+}

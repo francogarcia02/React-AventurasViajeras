@@ -1,7 +1,17 @@
-import './Excurciones.css'
+import './Excurciones.css';
+
+import Header from './Header/Header';
+import ItemList from './ItemList/ItemList';
 
 const Excurciones = () => {
-    return(<div>Excurciones</div>)
+
+
+    return(
+        <div className="Excurciones">
+            <Header/>
+            <ItemList/>
+        </div>
+    )
 }
 
 export default Excurciones

@@ -1,0 +1,8 @@
+/* Contenedor */
+.Alojamientos-conteiner{
+  margin: 0 auto;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 50px;
+}
