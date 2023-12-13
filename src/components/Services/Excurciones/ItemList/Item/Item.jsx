@@ -1,9 +1,7 @@
 import './Item.css';
 
-const Item = ({alojamiento}) =>{
-    const {img, nombre, descripcion, tipo} = alojamiento
-
-    console.log(nombre)
+const Item = ({excursion}) =>{
+    const {img, nombre, descripcion} = excursion
 
     return(
         <div className="Excur-Item">
@@ -12,7 +10,6 @@ const Item = ({alojamiento}) =>{
             </div>
             <h2 className="Item__title">{nombre}</h2>
             <h4 className="Item__desc">{descripcion}</h4>
-            <h3 className="Item__type">{tipo}</h3>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 .Navbar{
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(4, auto);
   justify-content: center;
   align-items: center;
   gap: 80px;

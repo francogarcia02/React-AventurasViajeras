@@ -5,12 +5,12 @@ import { useState } from 'react';
 import Item from './Item/Item';
 
 const ItemList = () =>{
-    const alojamientosDB = collection(db, 'Alojamientos')
-    const [alojamientos, setAlojamientos] = useState([])
+    const excursionesDB = collection(db, 'Alojamientos')
+    const [excursiones, setExcursiones] = useState([])
 
-    getDocs(alojamientosDB)
+    getDocs(excursionesDB)
         .then(resp=>{
-            setAlojamientos(
+            setExcursiones(
                 resp.docs.map(doc=>{
                     return{...doc.data()}
                 })
@@ -18,9 +18,9 @@ const ItemList = () =>{
         })
 
     return(
-        <div className="Alojamientos-conteiner">
-            {alojamientos && alojamientos.map(alo=>(
-                <Item key={alo.id} alojamiento={alo}/>
+        <div className="Excursiones-conteiner">
+            {excursiones && excursiones.map(alo=>(
+                <Item key={alo.id} excursion={alo}/>
             ))}
         </div>
     )

@@ -1,4 +1,4 @@
-.Excur-Item{
+.Aloj-Item{
   padding: 50px;
   display: grid;
   color: #0367A6;
@@ -15,7 +15,7 @@
   transition: transform 0.3s;
 }
 
-.Item__img:hover{
+.Item__img__conteiner:hover Item__img{
   transform: scale(0.95);
 }
 

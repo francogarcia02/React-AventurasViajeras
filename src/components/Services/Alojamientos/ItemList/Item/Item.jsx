@@ -3,8 +3,6 @@ import './Item.css';
 const Item = ({alojamiento}) =>{
     const {img, nombre, descripcion, tipo} = alojamiento
 
-    console.log(nombre)
-
     return(
         <div className="Aloj-Item">
             <div className="Item__img__conteiner">

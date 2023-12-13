@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () =>{
 
-    const link = (<Link className="Developer__link" to="https://github.com/francogarcia02">Franco Garcia</Link>)
+    const link = (<Link className="Developer__link" to="https://francogarcia20052003.000webhostapp.com/">Franco Garcia</Link>)
 
     return(
         <div>

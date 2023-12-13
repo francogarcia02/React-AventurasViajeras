@@ -1,0 +1,18 @@
+.Contact-header{
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  padding: 170px;
+  background-color: white;
+  color: #FF6060;
+}
+
+.Header__title{
+  font-size: 50px;
+  margin: 0;
+}
+
+.Header__subtitle{
+  font-weight: bold;
+  margin: 0;
+}

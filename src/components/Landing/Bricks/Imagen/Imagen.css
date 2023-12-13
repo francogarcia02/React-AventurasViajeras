@@ -2,3 +2,18 @@
   width: 100%;
   height: 450px;
 }
+
+.Imagen__container{
+  position: relative;
+}
+
+.Imagen__title{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+  font-size: 50px;
+
+}
