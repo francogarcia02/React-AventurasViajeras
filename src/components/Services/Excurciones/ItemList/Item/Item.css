@@ -4,19 +4,19 @@
   color: #0367A6;
 }
 
-.Item__img__conteiner{
-  outline: 20px solid #F7F7F7;
-  outline-offset: -20px;
+.E-Item__img__conteiner{
+  overflow: hidden;
 }
 
-.Item__img{
+.E-Item__img{
   width: 540px;
   height: 350px;
   transition: transform 0.3s;
+
 }
 
-.Item__img:hover{
-  transform: scale(0.95);
+.E-Item__img:hover{
+  transform: scale(1.1);
 }
 
 .Item__title{
