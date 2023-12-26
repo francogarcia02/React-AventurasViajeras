@@ -8,17 +8,6 @@
   overflow: hidden;
 }
 
-.E-Item__img{
-  width: 540px;
-  height: 350px;
-  transition: transform 0.3s;
-
-}
-
-.E-Item__img:hover{
-  transform: scale(1.1);
-}
-
 .Item__title{
   margin: 0;
   padding: 10px;
