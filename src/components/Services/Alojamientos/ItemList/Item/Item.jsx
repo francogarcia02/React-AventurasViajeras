@@ -13,7 +13,7 @@ const Item = ({alojamiento}) =>{
                 </Suspense>
             </div>
             <h2 className="Item__title">{nombre}</h2>
-            <h4 className="Item__desc">{descripcion}</h4>
+            <h5 className="Item__desc">{descripcion}</h5>
             <h3 className="Item__type">{tipo}</h3>
         </div>
     )

@@ -3,8 +3,8 @@ import './PreFooter.css';
 const PreFooter = () =>{
     return(
         <div className="PreFooter">
-            <h3 className="PreFooter__title">QUEREMOS QUE DISFRUTES CON NOSOTROS</h3>
-            <h5 className="PreFooter__text">¡TE ESPERAMOS!</h5>
+            <p className="PreFooter__title h3">QUEREMOS QUE DISFRUTES CON NOSOTROS</p>
+            <p className="PreFooter__text h5">¡TE ESPERAMOS!</p>
         </div>
     )
 }

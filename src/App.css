@@ -2,7 +2,7 @@ a{
   text-decoration: none;
 }
 
-html{
+.background{
   background-image: url('../public/assets/img/fondo/fondo2.jpg');
   background-attachment: fixed;
   background-size: cover;
