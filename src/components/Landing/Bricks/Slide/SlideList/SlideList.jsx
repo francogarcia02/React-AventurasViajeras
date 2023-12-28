@@ -6,7 +6,6 @@ import { Dot, ArrowRight, ArrowLeft } from 'react-bootstrap-icons'
 const SlideList = ({opiniones}) =>{
     const [index, setIndex] = useState(0);
     const [opinionSelected, setOpinionSelected] = useState(opiniones[0])
-    console.log(opinionSelected)
 
     const handleChange = (direction) => {
         setIndex(prevIndex => {

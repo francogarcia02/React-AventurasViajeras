@@ -19,8 +19,8 @@ const ItemList = () =>{
 
     return(
         <div className="Excursiones-conteiner">
-            {excursiones && excursiones.map(alo=>(
-                <Item key={alo.id} excursion={alo}/>
+            {excursiones && excursiones.map(exc=>(
+                <Item key={exc.id} excursion={exc}/>
             ))}
         </div>
     )
