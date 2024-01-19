@@ -1,16 +1,18 @@
 .Contacto{
   padding: 20px;
+  width: 100%;
 }
 
 .Contacto__title{
   margin: 0;
   padding-bottom: 10px;
+  font-size: 1.5vw;
 }
 
 .Contacto__item{
   margin: 0;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1vw;
   padding-top: 5px;
   padding-bottom: 5px;
 }

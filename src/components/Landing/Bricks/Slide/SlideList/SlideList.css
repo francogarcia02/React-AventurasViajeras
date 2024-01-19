@@ -1,6 +1,7 @@
 .SlideList{
   background-color: #63A5BF;
   text-align: center;
+  width: 100vw;
 }
 
 .SlideList__container{

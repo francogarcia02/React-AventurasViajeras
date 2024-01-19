@@ -9,8 +9,8 @@
 }
 
 .A-Item__img{
-  width: 540px;
-  height: 350px;
+  width: 1rem;
+  height: 0.8rem;
   transition: transform 0.3s;
   overflow-clip-margin: content-box;
   overflow: clip;

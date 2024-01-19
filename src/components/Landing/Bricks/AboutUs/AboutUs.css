@@ -5,28 +5,29 @@
   grid-template-columns: repeat(2, 1fr);
   justify-content: end;
   align-items: center;
+  width: 100vw;
 }
 
 .AboutUs__info{
-  padding: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 5rem;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 .AboutUs__info__title{
   margin: 0;
-  padding: 10px;
-  font-size: 40px;
+  padding: 1rem;
+  font-size: 2.5vw;
 }
 
 .AboutUs__info__text{
   margin: 0;
-  padding: 10px;
+  padding: 1rem;
   font-weight: bold;
+  font-size: 1.5vw;
 }
 
 .AboutUs__img{
-  width: 400px;
-  padding: 30px;
-  padding-left: 100px;
+  width: 30vw;
+  padding: 3rem;
 }

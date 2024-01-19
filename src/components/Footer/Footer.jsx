@@ -23,9 +23,6 @@ const Footer = () =>{
                     <p className="SubCont__p2">Desarrollado por {link}</p>
                 </div>
             </div>
-            <div className="Whatsapp">
-                <Link to="https://wa.me/3512290552"><img className="Whatsapp-img" src="../../../assets/img/Footer/whatsapp.png" alt="wsp logo"/></Link>
-            </div>
         </div>
     )
 }

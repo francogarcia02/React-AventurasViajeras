@@ -1,13 +1,14 @@
 .Conteiner{
   background-color: white;
   color: #03588C;
+  width: 100vw;
 }
 
 .Footer{
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-left: 60px;
-  margin-right: 60px;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
   border-bottom: solid 1px #03588C;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -19,38 +20,29 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-items: space-between;
-  padding: 20px;
+  padding: 1vw;
 }
 
 .SubCont__p1{
   margin: 0;
   justify-self: start;
-  margin-left: 60px;
+  margin-left: 4vw;
+  font-size: 1vw;
 }
 
 .SubCont__p2{
   margin: 0;
   justify-self: end;
-  margin-right: 60px;
+  margin-right: 4vw;
+  font-size: 1vw;
 }
 
 .Developer__link{
   transition: all 0.3s ease;
   color: #0367A6;
+  font-size: 1vw;
 }
 
 .Developer__link:hover{
   color: #63A5BF;
-}
-
-.Whatsapp{
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
-
-.Whatsapp-img{
-  width: 60px;
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
-  border-radius: 30px;
 }

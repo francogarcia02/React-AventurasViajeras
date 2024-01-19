@@ -1,14 +1,15 @@
 .PreFooter{
   margin: 0 auto;
-
   color: #E1D1EE;
   padding: 150px;
 }
 
 .PreFooter__title{
   text-align: center;
+  font-size: 3vw;
 }
 
 .PreFooter__text{
   text-align: center;
+  font-size: 1.5vw;
 }

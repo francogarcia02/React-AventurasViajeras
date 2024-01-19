@@ -1,12 +1,14 @@
 .Services{
   background-color: white;
   padding: 40px;
+  width: 100vw;
 }
 
 .Services__title{
   text-align: center;
   margin: 0;
   padding: 10px;
+  font-size: 2vw;
 }
 
 .Services__cont{
@@ -14,7 +16,7 @@
   grid-template-columns: repeat(3, auto);
   justify-content: center;
   align-content: center;
-  gap: 40px;
+  gap: 3rem;
 }
 
 .cont__item {
@@ -30,7 +32,7 @@
 }
 
 .cont__item__img{
-    width: 330px;
+    width: 20vw;
 }
 
 .cont__item__title{
