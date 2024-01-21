@@ -8,7 +8,7 @@
   text-align: center;
   margin: 0;
   padding: 10px;
-  font-size: 2vw;
+  font-size: 1.5rem;
 }
 
 .Services__cont{
@@ -16,6 +16,8 @@
   grid-template-columns: repeat(3, auto);
   justify-content: center;
   align-content: center;
+  align-items: center;
+  justify-items: center;
   gap: 3rem;
 }
 
@@ -24,7 +26,10 @@
   grid-template-rows: repeat(2, auto);
   align-items: center;
   justify-items: center;
+  align-content: center;
+  justify-content: center;
   transition: all 0.3s ease;
+
 }
 
 .cont__item:hover {
@@ -32,7 +37,7 @@
 }
 
 .cont__item__img{
-    width: 20vw;
+    width: 25vw;
 }
 
 .cont__item__title{
